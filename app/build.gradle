@@ -1,8 +1,9 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.ahmedadeltito.photoeditor"
         minSdkVersion 17
@@ -26,10 +27,14 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile project(':photoeditorsdk')
-    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:appcompat-v7:25.4.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:design:25.4.0'
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'fr.avianey.com.viewpagerindicator:library:2.4.1@aar'
     testCompile 'junit:junit:4.12'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }
