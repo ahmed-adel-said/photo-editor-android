@@ -37,19 +37,6 @@ Import Photo Editor SDK Module in your project.
 
 -----------------------------------------------------------------------------------------------------
 
-## Usage
-
-1. Adding **Images**.
-2. Adding **Stickers**.
-3. Adding **Text** with option to change its **Color**.
-4. **Drawing** on image with option to change its **Color**, its **Size** and **Erasing**.
-5. **Scaling** and **Rotating** views.
-6. **Deleting** views.
-7. **Saving** photo after editing.
-8. **Undo** after adding views.
-
------------------------------------------------------------------------------------------------------
-
 # User Documentation :
 
 1. First of all you have to get instance of PhotoEditorSDK to initialize it and start calling the desired functions.
